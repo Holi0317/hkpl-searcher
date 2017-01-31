@@ -4,8 +4,8 @@ A small script designed to search public library books in bulk
 I built this because of 好書龍虎榜. It is hard to search for books 60 books at once. Therefore this is written in order to finish that.
 
 # Usage
-1. Install Python
-2. Install dependencies by running `pip install -r requirement.txt` 
+1. Install Python and pipenv
+2. Install dependencies by running `pipenv install`
 2. Run main.py
 3. Use result printed on screen. Go to library and borrow it.
 4. Finish that (God damn) homework

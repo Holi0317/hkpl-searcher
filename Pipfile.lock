@@ -1,0 +1,33 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ],
+        "requires": {},
+        "hash": {
+            "sha256": "09e678b6af722a29e5cd196f2be5464a13033f264c3a561177632596151c2273"
+        }
+    },
+    "default": {
+        "pyquery": {
+            "hash": "sha256:554335a65570b4871051320a30919836f7548dbb2f2616d6e1f7c3f887096ef3",
+            "version": "==1.2.17"
+        },
+        "requests": {
+            "hash": "sha256:1a720e8862a41aa22e339373b526f508ef0c8988baf48b84d3fc891a8e237efb",
+            "version": "==2.13.0"
+        },
+        "lxml": {
+            "hash": "sha256:52766500c74c08a9fa6838163b89914a3274d7617f8cc420793fb6ea870cb558",
+            "version": "==3.7.2"
+        },
+        "cssselect": {
+            "hash": "sha256:4f5f799a1d3182b04814007e9e7fc6c362f4489c7420d6b348cc901ece07ced9",
+            "version": "==1.0.1"
+        }
+    },
+    "develop": {}
+}
