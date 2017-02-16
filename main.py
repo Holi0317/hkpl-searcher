@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 import warnings
@@ -9,7 +10,7 @@ import requests
 from pyquery import PyQuery as pq
 
 SEARCH_ENDPOINT = 'https://webcat.hkpl.gov.hk/search/syndication?match_1=PHRASE&field_1=isbn&term_1={0}&sort=relevance&syndication=true'
-LIBRARY_LOCATION = '904200000'
+LIBRARY_LOCATION = os.getenv('LIBRARY_LOCATION', '904200000')
 HEADERS = {
     'Accept-Language': 'en-US,en;q=0.8'
 }
